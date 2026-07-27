@@ -1,0 +1,42 @@
+#include "difference_of_squares.h"
+
+namespace difference_of_squares {
+
+// TODO: add your solution here
+
+    int square_of_sum(int n) {
+
+        int sum{};
+
+        for(int i{1}; i <= n; i++) {
+
+            sum += i;
+        }
+
+        return sum*sum;
+
+
+    }
+
+    int sum_of_squares(int n) {
+
+        int sum{};
+        
+        for(int i{1}; i <= n; i++) {
+
+            sum += i*i;
+
+
+        }
+        return sum;
+    }
+
+    int difference(int n) {
+
+        int difference = square_of_sum(n) - sum_of_squares(n);
+        return difference;
+
+    }
+
+
+}  // namespace difference_of_squares
