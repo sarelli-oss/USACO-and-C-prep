@@ -1,1 +1,1 @@
-# USACO-and-C-prep
+# Learning C++ fundamentals – exercises and notes
