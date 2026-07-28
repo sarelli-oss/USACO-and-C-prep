@@ -7,7 +7,7 @@ double daily_rate(double hourly_rate) {
     // TODO: Implement a function to calculate the daily rate given an hourly
     // rate
 
-    int daily_rate = hourly_rate * 8;
+    double daily_rate = hourly_rate * 8;
 
     return daily_rate;
 }
